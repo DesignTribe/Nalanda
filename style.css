@@ -155,9 +155,9 @@ body {
     color: #393939;
 }
 
-.amount p{
+/* .amount p{
     margin: 10px 0 0 0 ;
-}
+} */
 
 input{
     background: #FFFFFF;
@@ -272,4 +272,11 @@ line-height: 18px;
 color: #393939;
 background: #F5D00B;
 border: #F5D00B;
+cursor: pointer;
+}
+
+button:hover{
+    border: #E49435;
+    background: #E49435;
+    color: #ffffff;
 }
