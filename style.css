@@ -74,7 +74,7 @@ body {
 }
 
 .option1 {
-    background: #4C61D0;
+    
     height: 50px;
     width: 252px;
 }
@@ -95,6 +95,7 @@ body {
 }
 
 .option.active {
+    background: #4C61D0;
     color: #ffffff;
 }
 
@@ -153,6 +154,7 @@ body {
     font-size: 12px;
     line-height: 11px;
     color: #393939;
+    cursor: pointer;
 }
 
 /* .amount p{
@@ -279,4 +281,13 @@ button:hover{
     border: #E49435;
     background: #E49435;
     color: #ffffff;
+}
+.amount:hover{
+    border: 1px solid #4C61D0;
+}
+.amount-inner .amount-active{
+    background: #4C61D0;
+    color: #ffffff;
+    cursor: unset;
+    border: none;
 }
