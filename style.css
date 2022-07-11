@@ -7,27 +7,27 @@ body {
 
 .hero {
     margin: 0 auto;
-    background: url(./Layer1.svg);
+    /* background: url(./Rectangle\ 1.svg); */
     width: 1440px;
     height: 898px;
     background-size: cover;
 }
 
 .hero-inner {
-    background: url(./Layer2.svg);
+    background: url(./Slider1-1400x577\ 1.svg);
     width: 1440px;
     height: 898px;
 }
 
 .hero-inner-inner {
-    background: url(./Layer3.svg);
+    background: url(./Rectangle\ 1.svg);
     width: 1440px;
     height: 898px;
     background-size: cover;
 }
 
 .hero-content {
-    padding: 40px 140px;
+    padding: 100px 140px;
 }
 
 .hero-content>h1 {
@@ -56,7 +56,7 @@ body {
 
 .inner-card {
     width: 565px;
-    height: 640px;
+    height: 600px;
     background: #FFFFFF;
     box-shadow: 4px 4px 40px rgba(160, 160, 160, 0.25);
     border-radius: 4px;
@@ -65,7 +65,7 @@ body {
 
 .inner-card-options {
     background: #FBFBFB;
-    border: 2px solid #4C61D0;
+    border: 2px solid #4D86C5;
     border-radius: 4px;
     height: 50px;
     width: 505px;
@@ -91,19 +91,19 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 18px;
-    color: #4C61D0;
+    color: #4D86C5;
 }
 
 .option.active {
-    background: #4C61D0;
+    background: #4D86C5;
     color: #ffffff;
 }
 
 .donate-notice {
     width: 505px;
     height: 40px;
-    background: #EBEEFF;
-    border: 2px solid #EBEEFF;
+    background: #DFEEFF;
+    border: 2px solid #DFEEFF;
     border-radius: 4px;
     display: flex;
     align-items: center;
@@ -120,7 +120,7 @@ body {
     font-size: 12px;
     line-height: 11px;
 
-    color: #4C61D0;
+    color: #27568A;
 }
 
 .amount-outer {
@@ -263,6 +263,7 @@ padding: 16px 0;
 }
 
 button{
+    margin: 40px auto;
     padding: 19px 201px;
     width: fit-content;
     font-weight: 700;
@@ -272,21 +273,22 @@ line-height: 18px;
 
 
 color: #393939;
-background: #F5D00B;
-border: #F5D00B;
+border: #E49435;
+    background: #E49435;
 cursor: pointer;
+color: #ffffff;
 }
 
 button:hover{
-    border: #E49435;
-    background: #E49435;
+    border: #c27f2d;
+    background: #c27f2d;
     color: #ffffff;
 }
 .amount:hover{
-    border: 1px solid #4C61D0;
+    border: 1px solid #4D86C5;
 }
 .amount-inner .amount-active{
-    background: #4C61D0;
+    background: #4D86C5;
     color: #ffffff;
     cursor: unset;
     border: none;
