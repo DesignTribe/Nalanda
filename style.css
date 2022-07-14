@@ -7,7 +7,7 @@ body {
 
 .hero {
     margin: 0 auto;
-    /* background: url(./Rectangle\ 1.svg); */
+    background: url(./Layer1.svg);
     width: 1440px;
     height: 898px;
     background-size: cover;
@@ -17,10 +17,11 @@ body {
     background: url(./Slider1-1400x577\ 1.svg);
     width: 1440px;
     height: 898px;
+    border-radius: 0 0 0 50px;
 }
 
 .hero-inner-inner {
-    background: url(./Rectangle\ 1.svg);
+    background: url(./Layer2.svg);
     width: 1440px;
     height: 898px;
     background-size: cover;
@@ -40,8 +41,8 @@ body {
     color: #FFFFFF;
 }
 
-.hero-content>p {
-    padding: 20px 29px;
+.p-container{
+    padding: 10px 29px;
     background: rgba(235, 238, 255, 0.5);
     backdrop-filter: blur(30px);
     /* Note: backdrop-filter has minimal browser support */
@@ -52,6 +53,9 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 20px 0;
 }
 
 .inner-card {
@@ -231,16 +235,17 @@ width: fit-content;
 }
 
 .payment-methods{
-    width: 505px;
 height: 80px;
-background: #FBFBFB;
-margin: 10px auto;
+margin: 30px auto 0 auto;
+text-align: center;
 }
 
 .payment-methods p{
-    font-weight: 500;
-font-size: 8px;
-line-height: 8px;
+font-weight: 500;
+font-size: 12px;
+line-height: 11px;
+
+color: #9D9D9D;
 /* identical to box height */
 
 
@@ -251,7 +256,7 @@ padding: 16px 0;
 }
 
 .payment-logos{
-    width: 300px;
+    width: fit-content;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -263,7 +268,7 @@ padding: 16px 0;
 }
 
 button{
-    margin: 40px auto;
+    margin: 30px auto;
     padding: 19px 201px;
     width: fit-content;
     font-weight: 700;
